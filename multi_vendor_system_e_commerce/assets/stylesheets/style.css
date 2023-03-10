@@ -1,0 +1,235 @@
+/* * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  width: 40%;
+  text-align: center;
+  padding-left: 30%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px;
+  /* margin: 5px 0 22px 0; */
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+input[type = email] {
+  width: 100%;
+  padding: 5px; 
+  /* margin: 5px 0 22px 0; */
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.error{
+  /* background-color: red; */
+  color: red;
+  
+}
+
+.pherror{
+  color: red;
+  text-align: left;
+  font-size: small;
+}
+
+.addresserror {
+  color: red;
+  text-align: left;
+  font-size: small;
+}
+.nerror1{
+  color: red;
+  text-align: left;
+  font-size: small;
+}
+
+.nerror2{
+  color: red;
+  text-align: left;
+  font-size: small;
+
+}
+
+.emerror{
+  color:red;
+  text-align: left;
+  font-size: small;
+
+}
+
+.perror{
+  color: red;
+  text-align: left;
+  font-size: small;
+
+}
+
+.repasserror{
+  color: red;
+  text-align: left;
+  font-size: small;
+
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+  text-align: center;
+  
+}
+.heading{
+  color: white;
+}
+.signup {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.orlogin {
+  text-align: center;
+}
+
+.l_uname {
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_name{
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_email{
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_phone_number{
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_address{
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_password{
+  color: black;
+  float:left;
+  font-size: small;
+}
+.l_repeatpassword{
+  color: black;
+  font-size: small;
+  float:left;
+}
+
+.Form{
+  border-radius: 5px;
+  background-color: rgb(224,221,213);
+  padding: 20px;
+}
+
+
+
+body {
+  
+  background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgba(57,255,186,1) 0%,rgba(21,38,82,1) 90% );
+}
+
+.login{
+  height: 100vh;
+  background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgba(57,255,186,1) 0%,rgba(21,38,82,1) 90% );
+}
+
+.fil_top_msg{
+  color: black;
+}
+.stayloggedin{
+  color: black;
+  float: left;
+}
+
+#chechbox{
+  float:left;
+}
+
+.redirecttext{
+  color: black;
+}
+
+header li a {
+	font-weight: 900;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+}
+header li {
+	float: left;
+	width: 12.5%;
+	text-align: center;
+	text-transform: uppercase;
+}
+header li:nth-child(4) {
+	width: 25%;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.forgot{
+  float: right;
+}
+@media screen and (max-width: 800px) {
+	header ul li:not(:nth-child(4)) {
+		display: none;
+	}
+}
