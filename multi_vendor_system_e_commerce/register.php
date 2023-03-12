@@ -29,7 +29,7 @@
      </style> -->
  </head>
  
- <body>
+ <body class = "register">
  
  <div class="container">
      <h2 class = "heading">Register</h2>
@@ -68,7 +68,7 @@
        <input type="checkbox" name="stayLoggedIn" id="chechbox" value="1"> 
        <!-- <a href="" class = "forgot">Forgot Password?</a> -->
        <input type="submit"  name="signUp" value="Sign Up">
-       <p class = "redirecttext">Have an account already? <a  href="login.php">Log In</a></p>
+       <p class = "redirecttext">Have an account already? <a  href="index.php">Log In</a></p>
       </form>
      </div>
  </body>
